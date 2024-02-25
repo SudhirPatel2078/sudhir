@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlDatabaseEMP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sudh78.database.windows.net;initial catalog=sudh78;user id=sudh",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEE5RUFGNTBGLTdDQzQtNDUzQS1BQjQ1LTFDMEZCRkNEQzI3OV9jZjUxZjYyNi1kYzE4LTRjY2ItYWJmMC1hZDcwNGYzZWE0MDgiDQp9"
+		}
+	}
+}
