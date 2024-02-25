@@ -11,6 +11,18 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'linkedAzureSQLDatabse'"
 		},
+		"AzureDataLakeStorageEMP_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorageEMP'"
+		},
+		"AzureSqlDatabaseEMP_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseEMP'"
+		},
+		"AzureDataLakeStorageEMP_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://mystorageacc2078.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +52,15 @@
 					},
 					"linkedAzureSQLDatabse_connectionString": {
 						"value": "[parameters('linkedAzureSQLDatabse_connectionString')]"
+					},
+					"AzureDataLakeStorageEMP_accountKey": {
+						"value": "[parameters('AzureDataLakeStorageEMP_accountKey')]"
+					},
+					"AzureSqlDatabaseEMP_connectionString": {
+						"value": "[parameters('AzureSqlDatabaseEMP_connectionString')]"
+					},
+					"AzureDataLakeStorageEMP_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorageEMP_properties_typeProperties_url')]"
 					}
 				}
 			},

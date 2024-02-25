@@ -8,6 +8,15 @@
 		"linkedAzureSQLDatabse_connectionString": {
 			"value": ""
 		},
+		"AzureDataLakeStorageEMP_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabaseEMP_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorageEMP_properties_typeProperties_url": {
+			"value": "https://mystorageacc2078.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},
