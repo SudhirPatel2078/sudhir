@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "mydatafactory2078"
 		},
+		"linkedAzureSQLDatabse_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
